@@ -2,6 +2,7 @@
 import datetime as dt
 from dateutil.relativedelta import relativedelta
 
+
 def solution(today, terms, privacies):
     today = dt.datetime.strptime(today, '%Y.%m.%d')
     answer = []

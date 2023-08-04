@@ -1,6 +1,7 @@
 # https://school.programmers.co.kr/learn/courses/30/lessons/150367
 import math
 
+
 def convert_to_binary(number):
     tmp = []
 

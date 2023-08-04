@@ -1,6 +1,7 @@
 # https://school.programmers.co.kr/learn/courses/30/lessons/150368
 from itertools import product
 
+
 def get_result(users, emoticons, discount_percentages):
     total_emoticon_price = 0
     emoticon_plus_count = 0
@@ -16,6 +17,7 @@ def get_result(users, emoticons, discount_percentages):
         else:
             total_emoticon_price += user_price
     return [emoticon_plus_count, total_emoticon_price]
+
 
 def solution(users, emoticons):
     answer = [0,0]
