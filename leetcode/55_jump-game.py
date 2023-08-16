@@ -1,4 +1,6 @@
 # https://leetcode.com/problems/jump-game
+# Runtime 394ms (93.81%)
+# Memory 17.6mb (65.8%)
 
 
 class Solution:
